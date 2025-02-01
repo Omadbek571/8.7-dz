@@ -21,6 +21,9 @@ function MyLayout() {
                     <li className='p-2 rounded-md bg-blue-500 w-15 text-center font-bold'>
                         <Link to="/five" className="text-white hover:text-gray-400">5</Link>
                     </li>
+                    <li className='p-2 rounded-md bg-blue-500 w-15 text-center font-bold'>
+                        <Link to="/olti" className="text-white hover:text-gray-400">6</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

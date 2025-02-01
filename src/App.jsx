@@ -6,6 +6,7 @@ import Two from './pages/Two'
 import Three from './pages/Three'
 import Four from './pages/Four'
 import Five from './pages/Five'
+import Olti from './pages/Olti'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/three' element={<Three></Three>}></Route>
           <Route path='/four' element={<Four></Four>}></Route>
           <Route path='/five' element={<Five></Five>}></Route>
+          <Route path='/olti' element={<Olti></Olti>}></Route>
         </Routes>
       </div>
     </div>
