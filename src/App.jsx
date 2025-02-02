@@ -7,6 +7,7 @@ import Three from './pages/Three'
 import Four from './pages/Four'
 import Five from './pages/Five'
 import Olti from './pages/Olti'
+import Seven from './pages/Seven'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/four' element={<Four></Four>}></Route>
           <Route path='/five' element={<Five></Five>}></Route>
           <Route path='/olti' element={<Olti></Olti>}></Route>
+          <Route path='/seven' element={<Seven></Seven>}></Route>
         </Routes>
       </div>
     </div>
